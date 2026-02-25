@@ -1,53 +1,63 @@
 <!doctype html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Register</title>
     <link rel="stylesheet" href="css/register.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="container">
-            <div class="register-group">
-                <input type="password" name="register-email" required />
-                <label>이메일을 등록하세요</label>
-            </div>
-
-            <div class="register-group">
-                <input type="text" name="register-name" required />
-                <label>아이디를 등록하세요</label>
-            </div>
-
-            <div class="register-group">
-                <input type="tel" name="register-phone" required maxlength="11" />
-                <label>전화번호를 등록하세요</label>
-            </div>
-
-            <div class="register-group">
-                <input type="password" name="register-password" required />
-                <label>비밀번호를 등록하세요</label>
-            </div>
-
-            <div class="checkbox-login">
-                <input type="checkbox" id="option1" name="options" value="value1" required />
-                <label for="option1">약관 동의</label>
-
-                <input type="checkbox" id="option2" name="options" value="value2" />
-                <label for="option2">알림 수신 동의</label>
-            </div>
-
-            <div class="form-footer">
-                <span> <a href="#">가입 하기</a></span>
-            </div>
-
-            <div class="form-footer">
-                <span>이미 계정이 있다면 <a href="index.html">로그인</a></span>
-            </div>
+      <div class="container">
+        <div class="register-group">
+          <input type="password" name="register-email" required />
+          <label>이메일을 등록하세요</label>
         </div>
-    </div>
-</body>
 
+        <div class="register-group">
+          <input type="text" name="register-name" required />
+          <label>아이디를 등록하세요</label>
+        </div>
+
+        <div class="register-group">
+          <input
+            type="tel"
+            name="register-phone"
+            required
+            maxlength="11"
+            placeholder="'-' 제외하고 입력"
+          />
+          <label>전화번호를 등록하세요</label>
+        </div>
+
+        <div class="register-group">
+          <input type="password" name="register-password" required />
+          <label>비밀번호를 등록하세요</label>
+        </div>
+
+        <div class="checkbox-login">
+          <input
+            type="checkbox"
+            id="option1"
+            name="options"
+            value="value1"
+            required
+          />
+          <label for="option1">약관 동의</label>
+
+          <input type="checkbox" id="option2" name="options" value="value2" />
+          <label for="option2">알림 수신 동의</label>
+        </div>
+
+        <div class="form-footer">
+          <span> <a href="#">가입 하기</a></span>
+        </div>
+
+        <div class="form-footer">
+          <span>이미 계정이 있다면 <a href="index.html">로그인</a></span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
