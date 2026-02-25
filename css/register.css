@@ -67,31 +67,6 @@ body {
   color: #aaa; /* 원하는 힌트 색상 */
 }
 
-/* 2. 라벨 애니메이션 (기존 코드 유지 및 강화) */
-.register-group input:focus ~ label,
-.register-group input:valid ~ label {
-  top: -12px;
-  font-size: 12px;
-  color: #007bff;
-}
-
-.register-group input::placeholder {
-  color: transparent;
-  transition: color 0.3s;
-}
-
-.register-group input:focus::placeholder {
-  color: #aaa; /* 원하는 힌트 색상 */
-}
-
-/* 2. 라벨 애니메이션 (기존 코드 유지 및 강화) */
-.register-group input:focus ~ label,
-.register-group input:valid ~ label {
-  top: -12px;
-  font-size: 12px;
-  color: #007bff;
-}
-
 .register-group input:focus ~ label,
 .register-group input:valid ~ label {
   top: -12px;
