@@ -77,3 +77,27 @@ body {
 .input-group input:focus {
   border-bottom: 2px solid #1a73e8;
 }
+
+/* 로그인 버튼 */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1a73e8;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.3s,
+    transform 0.1s;
+}
+
+.submit-btn:hover {
+  background-color: #183f72;
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
