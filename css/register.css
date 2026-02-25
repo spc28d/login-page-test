@@ -25,6 +25,10 @@ body {
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .register-group {
@@ -52,6 +56,23 @@ body {
   font-size: 16px;
   pointer-events: none;
   transition: 0.3s;
+}
+
+.register-group input::placeholder {
+  color: transparent;
+  transition: color 0.3s;
+}
+
+.register-group input:focus::placeholder {
+  color: #aaa; /* 원하는 힌트 색상 */
+}
+
+/* 2. 라벨 애니메이션 (기존 코드 유지 및 강화) */
+.register-group input:focus ~ label,
+.register-group input:valid ~ label {
+  top: -12px;
+  font-size: 12px;
+  color: #007bff;
 }
 
 .register-group input::placeholder {
