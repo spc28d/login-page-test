@@ -1,37 +1,37 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
 
-  <body>
-    <div class="wrapper">
-      <div class="header-wrapper">
-        <p>Login</p>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="header-wrapper">
+      <p>Login</p>
+    </div>
+
+    <div class="container">
+      <div class="input-group">
+        <input type="text" name="username" required />
+        <label>아이디</label>
       </div>
 
-      <div class="container">
-        <div class="input-group">
-          <input type="text" name="username" required />
-          <label>아이디</label>
-        </div>
+      <div class="input-group">
+        <input type="password" name="password" required />
+        <label>비밀번호</label>
+      </div>
 
-        <div class="input-group">
-          <input type="password" name="password" required />
-          <label>비밀번호</label>
-        </div>
-
-        <button type="submit" class="submit-btn">로그인</button>
-        <div class="form-footer">
-          <span
-            >계정이 없으신가요? <a href="test_common.html">회원가입</a></span
-          >
-        </div>
+      <button type="submit" class="submit-btn">로그인</button>
+      <div class="form-footer info-text">
+        <span>계정이 없으신가요? <a href="test_common.html">회원가입하러 가기</a></span>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
